@@ -1,0 +1,3 @@
+In order to be able to use the models listed in these folders, simply drag-drop and replace or copy-paste and replace the desired models into the main 'item' folder.
+
+All models have already been given an appropriate and logical designated item to replace, by default. You can change these to your own desires.

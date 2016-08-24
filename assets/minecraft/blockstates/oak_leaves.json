@@ -2,7 +2,11 @@
 "__comment":"Made by Know2Good, part of the 'Default 3D™' resource pack || Official download page: http://www.planetminecraft.com/texture_pack/default-3d-2985741/ || © Know2Good. All rights reserved. ",
     "variants": {
         "normal": [
-        { "model": "oak_leaves", "weight": 40 }
+        { "model": "oak_leaves", "weight": 40 },
+            { "model": "oak_leaves_center", "weight": 1 },
+			{ "model": "oak_leaves_nw", "weight": 1 },
+		    { "model": "oak_leaves_ne", "weight": 1 }
+		
         ]
     }
 }

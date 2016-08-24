@@ -1,0 +1,40 @@
+{
+	"__comment":"Made by Know2Good, part of the 'Default 3D™' resource pack || Official download page: http://www.planetminecraft.com/texture_pack/default-3d-2985741/ || © Know2Good. All rights reserved. ",
+	"textures": {
+		"block": "custom/dirt_alt2",
+		"particle": "custom/dirt_alt2"
+	},
+	"elements": [ 
+	{
+		"type":"cube", //Block
+		"from": [0,0,0],
+		"to": [16,16,16],
+		"rotation": {"origin": [ 8, 1, 8 ], "axis": "y", "angle": 0 },
+		"faces": {
+			"up":{"uv":[16,0,0,16],"texture":"#block","cullface":"up","rotation":180 },
+			"down":{"uv":[16,0,0,16],"texture":"#block","cullface":"down","rotation":180 },
+			"north":{"uv":[16,0,0,16],"texture":"#block","cullface":"north","rotation":180 },
+			"south":{"uv":[16,0,0,16],"texture":"#block","cullface":"south","rotation":180 },
+			"west":{"uv":[16,0,0,16],"texture":"#block","cullface":"west","rotation":180 },
+			"east":{"uv":[16,0,0,16],"texture":"#block","cullface":"east","rotation":180 }
+    }
+	}
+],
+"display": {
+	"thirdperson": {
+		"rotation": [ 0, 45, 1 ],
+		"translation": [ 0, 0.5, 0 ],
+		"scale": [ 1.1, 1.1, 1.1 ]
+	},
+	"firstperson": {
+		"rotation": [ 0, 0, 0 ],
+		"translation": [ 0, 0, 0 ],
+		"scale": [ 1, 1, 1 ]
+	},
+	"gui": {
+		"rotation": [ 0, 0, 0 ],
+		"translation": [ 0, 0, 0 ],
+		"scale": [ 1, 1, 1 ]
+	}
+}
+}

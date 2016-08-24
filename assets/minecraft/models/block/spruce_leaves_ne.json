@@ -1,0 +1,82 @@
+{
+"__comment":"Made by Know2Good, part of the 'Default 3D™' resource pack || Official download page: http://www.planetminecraft.com/texture_pack/default-3d-2985741/ || © Know2Good. All rights reserved. ",
+"textures": {
+    "texture": "blocks/leaves_spruce",
+	"cone": "blocks/log_spruce",
+    "particle": "blocks/leaves_spruce"
+},
+"elements":[
+	{
+		"type":"cube", //Cone center
+		"from":[11,-6,3],
+		"to":[13,0,5],
+		"rotation": {"origin": [ 8, 1, 8 ], "axis": "y", "angle": 0 },
+		"faces": {
+			"down":{"uv":	[7.01,8.01,8.99,8.99],"texture":"#cone","cullface":down},
+			"up":{"uv":		[7.01,3.01,8.99,3.99],"texture":"#cone","cullface":down},
+			"north":{"uv":	[8.99,3.01,7.01,8.99],"texture":"#cone","cullface":down},
+			"south":{"uv":	[8.99,3.01,7.01,8.99],"texture":"#cone","cullface":down},
+			"west":{"uv":	[7.01,3.01,8.99,8.99],"texture":"#cone","cullface":down},
+			"east":{"uv":	[7.01,3.01,8.99,8.99],"texture":"#cone","cullface":down}
+		}
+	},
+	{
+		"type":"cube", //Cone middle
+		"from":[10.25,-4,2.25],
+		"to":[13.75,-1,5.75],
+		"rotation": {"origin": [ 8, 1, 8 ], "axis": "y", "angle": 0 },
+		"faces": {
+			"down":{"uv":	[4.01,6.01,6.99,8.99],"texture":"#cone","cullface":down},
+			"up":{"uv":		[4.01,6.01,6.99,8.99],"texture":"#cone","cullface":down},
+			"north":{"uv":	[6.99,6.01,4.01,8.99],"texture":"#cone","cullface":down},
+			"south":{"uv":	[6.99,6.01,4.01,8.99],"texture":"#cone","cullface":down},
+			"west":{"uv":	[4.01,6.01,6.99,8.99],"texture":"#cone","cullface":down},
+			"east":{"uv":	[4.01,6.01,6.99,8.99],"texture":"#cone","cullface":down}
+		}
+	},
+	{
+		"type":"cube", //Cone bottom tip
+		"from":[11.5,-7,3.5],
+		"to":[12.5,-6,4.5],
+		"rotation": {"origin": [ 8, 1, 8 ], "axis": "y", "angle": 0 },
+		"faces": {
+			"down":{"uv":	[7.01,7.01,7.99,7.99],"texture":"#cone","cullface":"down"},
+			"north":{"uv":	[7.01,7.01,7.99,7.99],"texture":"#cone","cullface":"down"},
+			"south":{"uv":	[7.01,7.01,7.99,7.99],"texture":"#cone","cullface":"down"},
+			"west":{"uv":	[7.01,7.01,7.99,7.99],"texture":"#cone","cullface":"down"},
+			"east":{"uv":	[7.01,7.01,7.99,7.99],"texture":"#cone","cullface":"down"}
+		}
+	},
+	{
+		"type":"cube", //Block
+		"from":[0,0,0],
+		"to":[16,16,16],
+		"rotation": {"origin": [ 8, 1, 8 ], "axis": "y", "angle": 0 },
+		"faces": {
+			"down":{"uv":[0,0,16,16],"texture":"#texture","cullface":"down","tintindex": 0},
+			"up":{"uv":[0,0,16,16],"texture":"#texture","cullface":"up","tintindex": 0},
+			"north":{"uv":[0,0,16,16],"texture":"#texture","cullface":"north","tintindex": 0},
+			"south":{"uv":[0,0,16,16],"texture":"#texture","cullface":"south","tintindex": 0},
+			"west":{"uv":[0,0,16,16],"texture":"#texture","cullface":"west","tintindex": 0},
+			"east":{"uv":[0,0,16,16],"texture":"#texture","cullface":"east","tintindex": 0}
+		}
+	}
+],
+"display": {
+	"thirdperson": {
+		"rotation": [ 0, 45, 1 ],
+		"translation": [ 0, 0.5, 0 ],
+		"scale": [ 1.1, 1.1, 1.1 ]
+	},
+	"firstperson": {
+		"rotation": [ 0, 0, 0 ],
+		"translation": [ 0, 0, 0 ],
+		"scale": [ 1, 1, 1 ]
+	},
+	"gui": {
+		"rotation": [ 0, 0, 0 ],
+		"translation": [ 0, 0, 0 ],
+		"scale": [ 1, 1, 1 ]
+	}
+}
+}

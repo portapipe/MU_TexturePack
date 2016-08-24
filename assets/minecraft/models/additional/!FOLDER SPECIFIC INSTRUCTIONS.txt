@@ -1,0 +1,2 @@
+Inside the 'blocks' folder, there are additional block model files. Not to be confused with 'block'.
+Inside the 'items' folder, there are additional item model files. Not to be confused with 'item'.

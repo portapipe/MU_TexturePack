@@ -1,0 +1,6 @@
+Inside the 'block' folder, there are block model files. Said folder and the files in it are recognized by the game and should be used for all models that should be active.
+Inside the 'item' folder, there are item model files. Said folder and the files in it are recognized by the game and should be used for all models that should be active.
+Inside the 'additional' folder, there are additional models files for both blocks and items. Said folder and the files are not recognized by the game.
+
+In order to personalize this resource pack, one just has to drag and drop the desired model files from a folder in 'additional' to 'block' or 'item'.
+					    one just has to drag and drop the unwanted model files from 'block' or 'item' to a folder in 'additional'.

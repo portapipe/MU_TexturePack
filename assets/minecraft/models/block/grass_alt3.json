@@ -1,0 +1,37 @@
+{
+"__comment":"Made by Know2Good, part of the 'Default 3D™' resource pack || Official download page: http://www.planetminecraft.com/texture_pack/default-3d-2985741/ || © Know2Good. All rights reserved. ",
+
+"textures": {
+	"bottom": 	"blocks/dirt",
+	"top": 		"custom/grass_top_alt3",
+	"side": 	"blocks/grass_side",
+	"overlay": 	"blocks/grass_side_overlay",
+	"particle": "blocks/dirt"
+},
+"elements": [ 
+	{
+		"__comment": "Block",
+		"from": [0,0,0],
+		"to": [16,16,16],
+		"faces": {
+			"down":{"uv":	[0,0,16,16],"texture":"#bottom","cullface":"down"},
+			"up":{"uv":		[0,0,16,16],"texture":"#top","cullface":"up","tintindex":0},
+			"north":{"uv":	[0,0,16,16],"texture":"#side","cullface":"north"},
+			"south":{"uv":	[0,0,16,16],"texture":"#side","cullface":"south"},
+			"west":{"uv":	[0,0,16,16],"texture":"#side","cullface":"west"},
+			"east":{"uv":	[0,0,16,16],"texture":"#side","cullface":"east"}
+		}
+	},
+	{
+		"__comment": "Overlay",
+		"from": [0,0,0],
+		"to": [16,16,16],
+		"faces": {
+			"north":{"uv":	[0,0,16,16],"texture":"#overlay","tintindex":0,"cullface":"north"},
+			"south":{"uv":	[0,0,16,16],"texture":"#overlay","tintindex":0,"cullface":"south"},
+			"west":{"uv":	[0,0,16,16],"texture":"#overlay","tintindex":0,"cullface":"west"},
+			"east":{"uv":	[0,0,16,16],"texture":"#overlay","tintindex":0,"cullface":"east"}
+            }
+        }
+    ]
+}

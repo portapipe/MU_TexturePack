@@ -1,0 +1,103 @@
+{
+"__comment":"Made by Know2Good, part of the 'Default 3D™' resource pack || Official download page: http://www.planetminecraft.com/texture_pack/default-3d-2985741/ || © Know2Good. All rights reserved. ",
+"__comment":"No UV-bleed, OK coordinate, OK texture, OK cullface",
+
+"textures": {
+	"block": 	"custom/netherrack_alt1",
+	"bone": 	"custom/bone",
+	"particle": "blocks/netherrack"
+},
+"elements": [ 
+	{
+		"__comment":"Block",
+		"from": [0,0,0],
+		"to": [16,16,16],
+		"faces": {
+			"down":{"uv":	[0,0,16,16],"texture":"#block","cullface":"down"},
+			"up":{"uv":		[0,0,16,16],"texture":"#block","cullface":"up"},
+			"north":{"uv":	[0,0,16,16],"texture":"#block","cullface":"north"},
+			"south":{"uv":	[0,0,16,16],"texture":"#block","cullface":"south"},
+			"west":{"uv":	[0,0,16,16],"texture":"#block","cullface":"west"},
+			"east":{"uv":	[0,0,16,16],"texture":"#block","cullface":"east"}
+		}
+	},
+	{
+		"__comment":"Bone middle",
+		"from": [3,16,12],
+		"to": [12,17,14],
+		"rotation": {"origin": [ 8, 1, 8 ], "axis": "y", "angle": 45 },
+		"faces": {
+			"up":{"uv":		[0.01,11.01,8.99,12.99],"texture":"#bone","cullface":"up"},
+			"north":{"uv":	[0.01,11.01,8.99,11.99],"texture":"#bone","cullface":"up","rotation":180},
+			"south":{"uv":	[0.01,12.01,8.99,12.99],"texture":"#bone","cullface":"up"},
+			"west":{"uv":	[0.01,11.01,0.99,12.99],"texture":"#bone","cullface":"up","rotation":270},
+			"east":{"uv":	[12.01,11.01,8.99,12.99],"texture":"#bone","cullface":"up","rotation":90}
+		}
+	},
+	{
+		"__comment":"Bone left",
+		"from": [4,16,11],
+		"to": [5,16.998,15],
+		"rotation": {"origin": [ 8, 1, 8 ], "axis": "y", "angle": 45 },
+		"faces": {
+			"up":{"uv":		[1.01,10.01,1.99,13.99],"texture":"#bone","cullface":"up"},
+			"north":{"uv":	[1.01,10.01,1.99,10.99],"texture":"#bone","cullface":"up","rotation":180},
+			"south":{"uv":	[1.01,13.01,1.99,13.99],"texture":"#bone","cullface":"up"},
+			"west":{"uv":	[1.01,10.01,1.99,13.99],"texture":"#bone","cullface":"up","rotation":270},
+			"east":{"uv":	[1.01,10.01,1.99,13.99],"texture":"#bone","cullface":"up","rotation":90}
+		}
+	},
+	{
+		"__comment":"Bone right",
+		"from": [10,16,11],
+		"to": [11,16.998,15],
+		"rotation": {"origin": [ 8, 1, 8 ], "axis": "y", "angle": 45 },
+		"faces": {
+			"up":{"uv":		[7.01,10.01,7.99,13.99],"texture":"#bone","cullface":"up"},
+			"north":{"uv":	[7.01,10.01,7.99,10.99],"texture":"#bone","cullface":"up","rotation":180},
+			"south":{"uv":	[7.01,13.01,7.99,13.99],"texture":"#bone","cullface":"up"},
+			"west":{"uv":	[7.01,10.01,7.99,13.99],"texture":"#bone","cullface":"up","rotation":270},
+			"east":{"uv":	[7.01,10.01,7.99,13.99],"texture":"#bone","cullface":"up","rotation":90}
+		}
+	},
+	{
+		"__comment":"Bone middle",
+		"from": [2,16,3],
+		"to": [11,17,5],
+		"rotation": {"origin": [ 8, 1, 8 ], "axis": "y", "angle": -22.5 },
+		"faces": {
+			"up":{"uv":		[0.01,11.01,8.99,12.99],"texture":"#bone","cullface":"up"},
+			"north":{"uv":	[0.01,11.01,8.99,11.99],"texture":"#bone","cullface":"up","rotation":180},
+			"south":{"uv":	[0.01,12.01,8.99,12.99],"texture":"#bone","cullface":"up"},
+			"west":{"uv":	[0.01,11.01,0.99,12.99],"texture":"#bone","cullface":"up","rotation":270},
+			"east":{"uv":	[12.01,11.01,8.99,12.99],"texture":"#bone","cullface":"up","rotation":90}
+		}
+	},
+	{
+		"__comment":"Bone left",
+		"from": [3,16,2],
+		"to": [4,16.998,6],
+		"rotation": {"origin": [ 8, 1, 8 ], "axis": "y", "angle": -22.5 },
+		"faces": {
+			"up":{"uv":		[1.01,10.01,1.99,13.99],"texture":"#bone","cullface":"up"},
+			"north":{"uv":	[1.01,10.01,1.99,10.99],"texture":"#bone","cullface":"up","rotation":180},
+			"south":{"uv":	[1.01,13.01,1.99,13.99],"texture":"#bone","cullface":"up"},
+			"west":{"uv":	[1.01,10.01,1.99,13.99],"texture":"#bone","cullface":"up","rotation":270},
+			"east":{"uv":	[1.01,10.01,1.99,13.99],"texture":"#bone","cullface":"up","rotation":90}
+		}
+	},
+	{
+		"__comment":"Bone right",
+		"from": [9,16,2],
+		"to": [10,16.998,6],
+		"rotation": {"origin": [ 8, 1, 8 ], "axis": "y", "angle": -22.5 },
+		"faces": {
+			"up":{"uv":		[7.01,10.01,7.99,13.99],"texture":"#bone","cullface":"up"},
+			"north":{"uv":	[7.01,10.01,7.99,10.99],"texture":"#bone","cullface":"up","rotation":180},
+			"south":{"uv":	[7.01,13.01,7.99,13.99],"texture":"#bone","cullface":"up"},
+			"west":{"uv":	[7.01,10.01,7.99,13.99],"texture":"#bone","cullface":"up","rotation":270},
+			"east":{"uv":	[7.01,10.01,7.99,13.99],"texture":"#bone","cullface":"up","rotation":90}
+            }
+        }
+    ]
+}

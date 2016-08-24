@@ -1,0 +1,93 @@
+{
+	"__comment":"Made by Know2Good, part of the 'Default 3D™' resource pack || Official download page: http://www.planetminecraft.com/texture_pack/default-3d-2985741/ || © Know2Good. All rights reserved. ",
+	"textures": {
+		"block": "blocks/gravel",
+		"shell": "custom/shell1",
+		"particle": "blocks/gravel"
+	},
+	"elements": [ 
+	{
+		"type":"cube", //Block
+		"from": [0,0,0],
+		"to": [16,16,16],
+		"rotation": {"origin": [ 8, 1, 8 ], "axis": "y", "angle": 0 },
+		"faces": {
+			"down":{"uv":[0,0,16,16],"texture":"#block","cullface":down},
+			"up":{"uv":[0,0,16,16],"texture":"#block","cullface":up},
+			"north":{"uv":[0,0,16,16],"texture":"#block","cullface":north},
+			"south":{"uv":[0,0,16,16],"texture":"#block","cullface":south},
+			"west":{"uv":[0,0,16,16],"texture":"#block","cullface":west},
+			"east":{"uv":[0,0,16,16],"texture":"#block","cullface":east}
+		}
+	},
+	{
+		"type":"cube", //Shell 1
+		"from": [13.5,20.5,9.5],
+		"to": [14.5,22,10.5],
+		"rotation": {"origin": [ 8, 1, 8 ], "axis": "y", "angle": 22.5 },
+		"faces": {
+			"up":{"uv":[15,0,16,1],"texture":"#shell","cullface":up,"rotation":180},
+			"north":{"uv":[15,0,16,1],"texture":"#shell","cullface":up,"rotation":90},
+			"south":{"uv":[15,0,16,1],"texture":"#shell","cullface":up,"rotation":270},
+			"west":{"uv":[15,0,16,1],"texture":"#shell","cullface":up,"rotation":90},
+			"east":{"uv":[15,0,16,1],"texture":"#shell","cullface":up,"rotation":270}
+		}
+	},
+	{
+		"type":"cube", //Shell 2
+		"from": [13,19,9],
+		"to": [15,20.5,11],
+		"rotation": {"origin": [ 8, 1, 8 ], "axis": "y", "angle": 22.5 },
+		"faces": {
+			"up":{"uv":[14,0,16,2],"texture":"#shell","cullface":up,"rotation":90},
+			"north":{"uv":[14,1,16,2],"texture":"#shell","cullface":up,"rotation":270},
+			"south":{"uv":[14,0,16,1],"texture":"#shell","cullface":up,"rotation":180},
+			"west":{"uv":[15,0,16,2],"texture":"#shell","cullface":up,"rotation":270},
+			"east":{"uv":[14,0,15,2],"texture":"#shell","cullface":up,"rotation":90}
+		}
+	},
+	{
+		"type":"cube", //Shell 3
+		"from": [12.5,17.5,8.5],
+		"to": [15.5,19,11.5],
+		"rotation": {"origin": [ 8, 1, 8 ], "axis": "y", "angle": 22.5 },
+		"faces": {
+			"up":{"uv":[13,0,16,3],"texture":"#shell","cullface":up,"rotation":180},
+			"north":{"uv":[13,2,16,3],"texture":"#shell","cullface":up,"rotation":90},
+			"south":{"uv":[13,0,16,1],"texture":"#shell","cullface":up,"rotation":270},
+			"west":{"uv":[15,0,16,3],"texture":"#shell","cullface":up,"rotation":90},
+			"east":{"uv":[13,0,14,3],"texture":"#shell","cullface":up,"rotation":270}
+		}
+	},
+	{
+		"type":"cube", //Shell 4
+		"from": [12,16,8],
+		"to": [16,17.5,12],
+		"rotation": {"origin": [ 8, 1, 8 ], "axis": "y", "angle": 22.5 },
+		"faces": {
+			"up":{"uv":[12,0,16,4],"texture":"#shell","cullface":up,"rotation":90},
+			"north":{"uv":[12,0,13,4],"texture":"#shell","cullface":up,"rotation":270},
+			"south":{"uv":[15,0,16,4],"texture":"#shell","cullface":up,"rotation":180},
+			"west":{"uv":[12,3,16,4],"texture":"#shell","cullface":up,"rotation":270},
+			"east":{"uv":[12,0,16,1],"texture":"#shell","cullface":up,"rotation":90}
+    }
+	}
+],
+"display": {
+	"thirdperson": {
+		"rotation": [ 0, 45, 1 ],
+		"translation": [ 0, 0.5, 0 ],
+		"scale": [ 1.1, 1.1, 1.1 ]
+	},
+	"firstperson": {
+		"rotation": [ 0, 0, 0 ],
+		"translation": [ 0, 0, 0 ],
+		"scale": [ 1, 1, 1 ]
+	},
+	"gui": {
+		"rotation": [ 0, 0, 0 ],
+		"translation": [ 0, 0, 0 ],
+		"scale": [ 1, 1, 1 ]
+	}
+}
+}

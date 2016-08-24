@@ -1,0 +1,113 @@
+{
+"__comment":"Made by Know2Good, part of the 'Default 3D™' resource pack || Official download page: http://www.planetminecraft.com/texture_pack/default-3d-2985741/ || © Know2Good. All rights reserved. ",
+"__comment":"No UV-bleed, OK coordinate, OK texture, OK cullface",
+
+"textures": {
+	"block": 	"blocks/stone_andesite_smooth",
+	"particle":	"blocks/stone_andesite_smooth"
+},
+"elements":[
+	{
+		"type":"cube", //The inner block
+		"from":[0,0,0],
+		"to":[16,16,16],
+		"faces": {
+			"down":{"uv":[0,0,16,16],"texture":"#block","cullface":"down"},
+			"up":{"uv":[0,0,16,16],"texture":"#block","cullface":"up"},
+			"north":{"uv":[0,0,16,16],"texture":"#block","cullface":"north"},
+			"south":{"uv":[0,0,16,16],"texture":"#block","cullface":"south"},
+			"west":{"uv":[0,0,16,16],"texture":"#block","cullface":"west"},
+			"east":{"uv":[0,0,16,16],"texture":"#block","cullface":"east"}
+		}
+	},
+	{
+		"type":"cube", //Top
+		"from":[0.001,16,0.001],
+		"to":[15.01,16.99,15.01],
+		"faces": {
+			"up":{"uv":		[0.01,0.01,14.99,14.99],"texture":"#block","cullface":"up"},
+			"north":{"uv":	[0.01,0.01,14.99,0.99],"texture":"#block","cullface":"up","rotation":180},
+			"south":{"uv":	[0.01,14.01,14.99,14.99],"texture":"#block","cullface":"up"},
+			"west":{"uv":	[0.01,0.01,0.99,14.99],"texture":"#block","cullface":"up","rotation":270},
+			"east":{"uv":	[14.01,0.01,14.99,14.99],"texture":"#block","cullface":"up","rotation":90}
+		}
+	},
+	{
+		"type":"cube", //North
+		"from":[0.99,0.99,-0.99],
+		"to":[15.999,15.999,0],
+		"faces": {
+			"down":{"uv":	[0.01,14.01,14.99,14.99],"texture":"#block","cullface":"north","rotation":180},
+			"up":{"uv":		[0.01,0.01,14.99,0.99],"texture":"#block","cullface":"north","rotation":180},
+			"north":{"uv":	[0.01,0.01,14.99,14.99],"texture":"#block","cullface":"north"},
+			"west":{"uv":	[14.01,0.01,14.99,14.99],"texture":"#block","cullface":"north"},
+			"east":{"uv":	[0.01,0.01,0.99,14.99],"texture":"#block","cullface":"north"}
+		}
+	},
+	{
+		"type":"cube", //East
+		"from":[16,0.99,0.99],
+		"to":[16.99,15.999,15.999],
+		"faces": {
+			"down":{"uv":	[0.01,14.01,14.99,14.99],"texture":"#block","cullface":"east","rotation":90},
+			"up":{"uv":		[0.01,0.01,14.99,0.99],"texture":"#block","cullface":"east","rotation":270},
+			"north":{"uv":	[14.01,0.01,14.99,14.99],"texture":"#block","cullface":"east"},
+			"south":{"uv":	[0.01,0.01,0.99,14.99],"texture":"#block","cullface":"east"},
+			"east":{"uv":	[0.01,0.01,14.99,14.99],"texture":"#block","cullface":"east"}
+		}
+	},
+	{
+		"type":"cube", //South
+		"from":[0.001,0.99,16],
+		"to":[15.01,15.999,16.99],
+		"faces": {
+			"down":{"uv":	[0.01,14.01,14.99,14.99],"texture":"#block","cullface":"south"},
+			"up":{"uv":		[0.01,0.01,14.99,0.99],"texture":"#block","cullface":"south"},
+			"south":{"uv":	[0.01,0.01,14.99,14.99],"texture":"#block","cullface":"south"},
+			"west":{"uv":	[0.01,0.01,0.99,14.99],"texture":"#block","cullface":"south"},
+			"east":{"uv":	[14.01,0.01,14.99,14.99],"texture":"#block","cullface":"south"}
+		}
+	},
+	{
+		"type":"cube", //West
+		"from":[-0.99,0.99,0.001],
+		"to":[0,15.999,15.01],
+		"faces": {
+			"down":{"uv":	[0.01,14.01,14.99,14.99],"texture":"#block","cullface":"west","rotation":270},
+			"up":{"uv":		[0.01,0.01,14.99,0.99],"texture":"#block","cullface":"west","rotation":90},
+			"north":{"uv":	[0.01,0.01,0.99,14.99],"texture":"#block","cullface":"west"},
+			"south":{"uv":	[14.01,0.01,14.99,14.99],"texture":"#block","cullface":"west"},
+			"west":{"uv":	[0.01,0.01,14.99,14.99],"texture":"#block","cullface":"west"}
+		}
+	},
+	{
+		"type":"cube", //Bottom
+		"from":[0.001,-0.99,0.99],
+		"to":[15.01,0,15.999],
+		"faces": {
+			"down":{"uv":	[0.01,0.01,14.99,14.99],"texture":"#block","cullface":"down"},
+			"north":{"uv":	[0.01,14.01,14.99,14.99],"texture":"#block","cullface":"down","rotation":180},
+			"south":{"uv":	[0.01,0.01,14.99,0.99],"texture":"#block","cullface":"down"},
+			"west":{"uv":	[0.01,0.01,0.99,14.99],"texture":"#block","cullface":"down","rotation":90},
+			"east":{"uv":	[14.01,0.01,14.99,14.99],"texture":"#block","cullface":"down","rotation":270}
+		}
+	}
+],
+"display": {
+	"thirdperson": {
+		"rotation": [ 0, 45, 1 ],
+		"translation": [ 0, 0.5, 0 ],
+		"scale": [ 1.1, 1.1, 1.1 ]
+	},
+	"firstperson": {
+		"rotation": [ 0, 0, 0 ],
+		"translation": [ 0, 0, 0 ],
+		"scale": [ 1, 1, 1 ]
+	},
+	"gui": {
+		"rotation": [ 0, 0, 0 ],
+		"translation": [ 0, 0, 0 ],
+		"scale": [ 1, 1, 1 ]
+	}
+}
+}

@@ -1,0 +1,1 @@
+In order to be able to use the models listed in this folder, one has to rename said models to a transparent/non-full block of choice and than just drag and drop said models into the 'block' folder. 
