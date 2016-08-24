@@ -1,0 +1,23 @@
+{
+"__comment":"Made by Know2Good, part of the 'Default 3D™' resource pack || Official download page: http://www.planetminecraft.com/texture_pack/default-3d-2985741/ || © Know2Good. All rights reserved. ",
+    "variants": {
+        "normal": [
+            { "model": "red_mushroom", "weight": 40 },
+				{ "model": "red_mushroom_90", "weight": 40 },
+				{ "model": "red_mushroom_180", "weight": 40 },
+				{ "model": "red_mushroom_270", "weight": 40 },
+			{ "model": "red_mushroom_1", "weight": 40 },
+				{ "model": "red_mushroom_1_90", "weight": 40 },
+				{ "model": "red_mushroom_1_180", "weight": 40 },
+				{ "model": "red_mushroom_1_270", "weight": 40 },
+			{ "model": "red_mushroom_2", "weight": 35 },
+				{ "model": "red_mushroom_2_90", "weight": 35 },
+				{ "model": "red_mushroom_2_180", "weight": 35 },
+				{ "model": "red_mushroom_2_270", "weight": 35 },
+			{ "model": "red_mushroom_3", "weight": 35 },
+				{ "model": "red_mushroom_3_90", "weight": 35 },
+				{ "model": "red_mushroom_3_180", "weight": 35 },
+				{ "model": "red_mushroom_3_270", "weight": 35 }
+        ]
+    }
+}

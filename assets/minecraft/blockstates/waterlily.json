@@ -1,0 +1,43 @@
+{
+"__comment":"Made by Know2Good, part of the 'Default 3D™' resource pack || Official download page: http://www.planetminecraft.com/texture_pack/default-3d-2985741/ || © Know2Good. All rights reserved. ",
+    "variants": {
+        "normal": [
+            { "model": "waterlily", "weight": 120 },
+            { "model": "waterlily", "y": 90, "weight": 120 },
+            { "model": "waterlily", "y": 180, "weight": 120 },
+            { "model": "waterlily", "y": 270, "weight": 120 },
+	    { "model": "waterlily_white", "weight": 4 },
+            { "model": "waterlily_white", "y": 90, "weight": 4 },
+            { "model": "waterlily_white", "y": 180, "weight": 4 },
+            { "model": "waterlily_white", "y": 270, "weight": 4 },
+	    { "model": "waterlily_pink", "weight": 3 },
+            { "model": "waterlily_pink", "y": 90, "weight": 3 },
+            { "model": "waterlily_pink", "y": 180, "weight": 3 },
+            { "model": "waterlily_pink", "y": 270, "weight": 3 },
+		{ "model": "waterlily_red", "weight": 2 },
+            { "model": "waterlily_red", "y": 90, "weight": 2 },
+            { "model": "waterlily_red", "y": 180, "weight": 2 },
+            { "model": "waterlily_red", "y": 270, "weight": 2 },
+		{ "model": "waterlily_yellow", "weight": 3 },
+            { "model": "waterlily_yellow", "y": 90, "weight": 3 },
+            { "model": "waterlily_yellow", "y": 180, "weight": 3 },
+            { "model": "waterlily_yellow", "y": 270, "weight": 3 },
+		{ "model": "waterlily_lightblue", "weight": 3 },
+            { "model": "waterlily_lightblue", "y": 90, "weight": 3 },
+            { "model": "waterlily_lightblue", "y": 180, "weight": 3 },
+            { "model": "waterlily_lightblue", "y": 270, "weight": 3 },
+		{ "model": "waterlily_blue", "weight": 2 },
+            { "model": "waterlily_blue", "y": 90, "weight": 2 },
+            { "model": "waterlily_blue", "y": 180, "weight": 2 },
+            { "model": "waterlily_blue", "y": 270, "weight": 2 },
+		{ "model": "waterlily_magenta", "weight": 2 },
+            { "model": "waterlily_magenta", "y": 90, "weight": 2 },
+            { "model": "waterlily_magenta", "y": 180, "weight": 2 },
+            { "model": "waterlily_magenta", "y": 270, "weight": 2 },
+		{ "model": "waterlily_purple", "weight": 2 },
+            { "model": "waterlily_purple", "y": 90, "weight": 2 },
+            { "model": "waterlily_purple", "y": 180, "weight": 2 },
+            { "model": "waterlily_purple", "y": 270, "weight": 2 }
+        ]
+    }
+}

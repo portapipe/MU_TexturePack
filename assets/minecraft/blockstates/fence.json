@@ -1,0 +1,21 @@
+{
+"__comment":"Made by Know2Good, part of the 'Default 3D™' resource pack || Official download page: http://www.planetminecraft.com/texture_pack/default-3d-2985741/ || © Know2Good. All rights reserved. ",
+    "variants": {
+        "east=false,north=false,south=false,west=false": { "model": "oak_fence_post" },
+        "east=false,north=true,south=false,west=false": { "model": "oak_fence_n", "uvlock": false },
+        "east=true,north=false,south=false,west=false": { "model": "oak_fence_e", "uvlock": false },
+        "east=false,north=false,south=true,west=false": { "model": "oak_fence_s", "uvlock": false },
+        "east=false,north=false,south=false,west=true": { "model": "oak_fence_w", "uvlock": false },
+        "east=true,north=true,south=false,west=false": { "model": "oak_fence_ne", "uvlock": false },
+        "east=true,north=false,south=true,west=false": { "model": "oak_fence_se", "uvlock": false },
+        "east=false,north=false,south=true,west=true": { "model": "oak_fence_sw", "uvlock": false },
+        "east=false,north=true,south=false,west=true": { "model": "oak_fence_nw", "uvlock": false },
+        "east=false,north=true,south=true,west=false": { "model": "oak_fence_ns", "uvlock": false },
+        "east=true,north=false,south=false,west=true": { "model": "oak_fence_ew", "uvlock": false },
+        "east=true,north=true,south=true,west=false": { "model": "oak_fence_nes", "uvlock": false },
+        "east=true,north=false,south=true,west=true": { "model": "oak_fence_esw", "uvlock": false },
+        "east=false,north=true,south=true,west=true": { "model": "oak_fence_swn", "uvlock": false },
+        "east=true,north=true,south=false,west=true": { "model": "oak_fence_wne", "uvlock": false },
+        "east=true,north=true,south=true,west=true": { "model": "oak_fence_nesw", "uvlock": false }
+    }
+}

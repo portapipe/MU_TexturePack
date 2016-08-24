@@ -1,0 +1,35 @@
+{
+"__comment":"Made by Know2Good, part of the 'Default 3D™' resource pack || Official download page: http://www.planetminecraft.com/texture_pack/default-3d-2985741/ || © Know2Good. All rights reserved. ",
+    "variants": {
+        "snowy=false": [
+            { "model": "grass_normal", "weight": 590 },
+            { "model": "grass_normal", "y": 90, "weight": 620 },
+            { "model": "grass_normal", "y": 180, "weight": 600 },
+			{ "model": "grass_normal", "y": 270, "weight": 610 },
+            { "model": "grass_alt1", "weight": 540 },
+            { "model": "grass_alt1", "y": 90, "weight": 570 },
+            { "model": "grass_alt1", "y": 180, "weight": 550 },
+            { "model": "grass_alt2", "weight": 540 },
+            { "model": "grass_alt2", "y": 90, "weight": 550 },
+            { "model": "grass_alt2", "y": 180, "weight": 560 },
+            { "model": "grass_alt3", "weight": 540 },
+            { "model": "grass_alt3", "y": 90, "weight": 560 },
+            { "model": "grass_alt3", "y": 180, "weight": 570 },
+            { "model": "grass_alt4", "weight": 540 },
+            { "model": "grass_alt4", "y": 90, "weight": 570 },
+            { "model": "grass_alt4", "y": 180, "weight": 550 },
+            { "model": "grass_alt5", "weight": 540 },
+            { "model": "grass_alt5", "y": 90, "weight": 550 },
+            { "model": "grass_alt5", "y": 180, "weight": 560 },
+			{ "model": "grass_normal_pebble_1.1", "weight": 20 },
+            { "model": "grass_normal_pebble_1.2", "weight": 20 },
+			{ "model": "grass_normal_pebbles_1.1", "weight": 20 },
+            { "model": "grass_normal_pebbles_1.2", "weight": 20 },
+			{ "model": "grass_normal_twig_1.1", "weight": 10 },
+			{ "model": "grass_normal_twig_1.2", "weight": 10 },
+            { "model": "grass_normal_twig_2.2", "weight": 10 },
+            { "model": "grass_normal_twig_2.2", "weight": 10 }
+        ],
+        "snowy=true":  { "model": "grass_snowed" }
+    }
+}

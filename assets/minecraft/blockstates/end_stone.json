@@ -1,0 +1,32 @@
+{
+"__comment":"Made by Know2Good, part of the 'Default 3D™' resource pack || Official download page: http://www.planetminecraft.com/texture_pack/default-3d-2985741/ || © Know2Good. All rights reserved. ",
+    "variants": {
+        "normal": [
+            { "model": "end_stone", "weight": 580 },
+			{ "model": "end_stone_pebble_1", "weight": 3 },
+			{ "model": "end_stone_pebble_1", "y": 90, "weight": 3 },
+			{ "model": "end_stone_pebble_1", "y": 180,"weight": 3 },
+			{ "model": "end_stone_pebble_1", "y": 270,"weight": 3 },
+			{ "model": "end_stone_pebble_2", "weight": 3 },
+			{ "model": "end_stone_pebble_2", "y": 90, "weight": 3 },
+			{ "model": "end_stone_pebble_2", "y": 180,"weight": 3 },
+			{ "model": "end_stone_pebble_2", "y": 270,"weight": 3 },
+			{ "model": "end_stone_pebble_3", "weight": 3 },
+			{ "model": "end_stone_pebble_3", "y": 90, "weight": 3 },
+			{ "model": "end_stone_pebble_3", "y": 180,"weight": 3 },
+			{ "model": "end_stone_pebble_3", "y": 270,"weight": 3 },
+			{ "model": "end_stone_pebble_4", "weight": 3 },
+			{ "model": "end_stone_pebble_4", "y": 90, "weight": 3 },
+			{ "model": "end_stone_pebble_4", "y": 180,"weight": 3 },
+			{ "model": "end_stone_pebble_4", "y": 270,"weight": 3 },
+            { "model": "end_stone_sparkle_1", "weight": 2 },
+			{ "model": "end_stone_sparkle_2", "weight": 2 },
+			{ "model": "end_stone_sparkle_3", "weight": 1 },
+			{ "model": "end_stone_sparkle_4", "weight": 1 },
+			{ "model": "end_stone_sparkle_5", "weight": 1 },
+			{ "model": "end_stone_sparkle_6", "weight": 1 },
+			{ "model": "end_stone_sparkle_7", "weight": 1 },
+            { "model": "end_stone_sparkle_8", "weight": 1 }
+        ]
+    }
+}

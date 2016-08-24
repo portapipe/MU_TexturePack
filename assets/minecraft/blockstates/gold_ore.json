@@ -1,0 +1,25 @@
+{
+"__comment":"Made by Know2Good, part of the 'Default 3D™' resource pack || Official download page: http://www.planetminecraft.com/texture_pack/default-3d-2985741/ || © Know2Good. All rights reserved. ",
+    "variants": {
+        "normal": [
+            { "model": "gold_ore", "weight": 42 },
+            { "model": "gold_ore_1", "weight": 35 },
+            { "model": "gold_ore_2", "weight": 28 },
+            { "model": "gold_ore_3", "weight": 21 },
+            { "model": "gold_ore_4", "weight": 14 },
+            { "model": "gold_ore_5", "weight": 14 },
+            { "model": "gold_ore.1", "weight": 42 },
+            { "model": "gold_ore_1.1", "weight": 35 },
+            { "model": "gold_ore_2.1", "weight": 28 },
+            { "model": "gold_ore_3.1", "weight": 21 },
+            { "model": "gold_ore_4.1", "weight": 14 },
+            { "model": "gold_ore_5.1", "weight": 14 },
+            { "model": "gold_ore.2", "weight": 42 },
+            { "model": "gold_ore_1.2", "weight": 35 },
+            { "model": "gold_ore_2.2", "weight": 28 },
+            { "model": "gold_ore_3.2", "weight": 21 },
+            { "model": "gold_ore_4.2", "weight": 14 },
+            { "model": "gold_ore_5.2", "weight": 14 }
+        ]
+    }
+}

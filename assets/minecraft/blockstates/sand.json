@@ -1,0 +1,15 @@
+{
+"__comment":"Made by Know2Good, part of the 'Default 3D™' resource pack || Official download page: http://www.planetminecraft.com/texture_pack/default-3d-2985741/ || © Know2Good. All rights reserved. ",
+    "variants": {
+        "normal": [
+        { "model": "sand", "weight": 590 },
+            { "model": "sand", "y": 90, "weight": 620 },
+            { "model": "sand", "y": 270, "weight": 600 },
+		{ "model": "sand-pebble1.1", "weight": 6 },
+            { "model": "sand-pebble1.2", "weight": 6 },
+		{ "model": "sand-pebbles2.1", "weight": 6 },
+            { "model": "sand-pebbles2.2", "weight": 6 }
+		
+        ]
+    }
+}

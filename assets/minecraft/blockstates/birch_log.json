@@ -1,0 +1,19 @@
+{
+"__comment":"Made by Know2Good, part of the 'Default 3D™' resource pack || Official download page: http://www.planetminecraft.com/texture_pack/default-3d-2985741/ || © Know2Good. All rights reserved. ",
+    "variants": {
+            "axis=y":[ { "model": "birch_log", "weight": 40 },
+								{ "model": "birch_log_alt1", "weight": 40 },
+								{ "model": "birch_log_alt2", "weight": 40 },
+								{ "model": "birch_log_alt3", "weight": 40 }],
+			"axis=z":[ { "model": "birch_log_side", "weight": 40 },
+								{ "model": "birch_log_side_alt1", "weight": 40 },
+								{ "model": "birch_log_side_alt2", "weight": 40 },
+								{ "model": "birch_log_side_alt3", "weight": 40 }],
+			"axis=x":[ { "model": "birch_log_side", "y": 90, "weight": 40 },
+								{ "model": "birch_log_side_alt1", "y": 90, "weight": 40 },
+								{ "model": "birch_log_side_alt2", "y": 90, "weight": 40 },
+								{ "model": "birch_log_side_alt3", "y": 90, "weight": 40 }],
+			"axis=none": { "model": "birch_bark" }
+    }
+}
+

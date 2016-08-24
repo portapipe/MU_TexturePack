@@ -1,0 +1,13 @@
+{
+"__comment":"Made by Know2Good, part of the 'Default 3D™' resource pack || Official download page: http://www.planetminecraft.com/texture_pack/default-3d-2985741/ || © Know2Good. All rights reserved. ",
+    "variants": {
+        "normal": [
+            { "model": "bookshelf", "weight": 600 },
+			{ "model": "bookshelf_alt0", "weight": 45 },
+            { "model": "bookshelf_alt1", "weight": 400 },
+            { "model": "bookshelf_alt2", "weight": 200 },
+            { "model": "bookshelf_alt3", "weight": 350 },
+            { "model": "bookshelf_alt4", "weight": 450 }
+        ]
+    }
+}
